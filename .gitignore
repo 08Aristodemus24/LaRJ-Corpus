@@ -1,0 +1,19 @@
+# ignore all extracted and cleaned .csv files since it takes too much space
+/raw labor corpus juris extraction/*.csv
+/raw labor corpus juris cleaning/*.csv
+
+# ignore converted cleaned .csv files to .txt files
+/raw labor corpus juris text files/
+
+# ignore all identified jurisprudence documents
+/raw jurisprudence/*answers*
+
+# ignore the 60000+ jurisprudence documents
+/raw jurisprudence/juris/
+
+# ignore .xlsx file containing meta-data of each jurisprudence document
+/raw jurisprudence/data__raw.xlsx
+/raw jurisprudence/data__transformed.xlsx
+
+# ignore .env containing OPEN_AI_API_KEY
+/.env

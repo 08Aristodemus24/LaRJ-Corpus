@@ -1,0 +1,4 @@
+CUsersMigDesktopprojectsTo Githubetl-phil-corpus-jurisraw data cleaningProposed International Labor Conventions.csv
+
+, page_link, page_header, page_text_content, link_text
+0, https://www.chanrobles.com/republicactno8042.htm, "This webpage features the full text of Republic Act No. 8042 June 7, 1995", " Migrant Workers and Overseas Filipinos Act of 1995...", "Migrant Workers and Overseas Filipinos Act of 1995 Republic Act No. 8042"
