@@ -341,6 +341,13 @@ however we may not be able to finish a web architecture that allows users to sha
 ## Labor Related Jurisprudence
 1. upload final__df.csv to database by proxy via .sql script
 2. upload synthetically created user-item interaction from final__df.csv by proxy via .sql script
+3. to import the juris_meta.csv file note that the sql scripts must be run in this sequential order should it be pulled from github: 
+a. \ir ./create_db.sql
+b. \ir ./create_tables.sql
+c. \ir ./insert_data.sql
+4. to delete the entire created database and its tables by the preceding commands above that created the database and tables in the first place sql scripts must be run in this sequential order:
+a. \ir ./delete_tables.sql
+b. \ir ./delete_db.sql
 
 
 
