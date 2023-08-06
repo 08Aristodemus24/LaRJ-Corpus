@@ -1,0 +1,2 @@
+DROP TABLE Answers;
+DROP TABLE JurisMeta;
