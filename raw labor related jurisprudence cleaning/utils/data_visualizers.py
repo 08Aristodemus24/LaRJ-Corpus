@@ -43,3 +43,7 @@ def view_word_frequency(word_counts, colormap:str, title: str, kind: str='barh',
         axis.set_title(title)
         plt.savefig(f'./figures & images/{title}.png')
         plt.show()
+
+
+def view_all_df_rows(df):
+    pass

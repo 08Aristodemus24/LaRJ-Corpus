@@ -357,3 +357,18 @@ b. \ir ./delete_db.sql
 
 ## Labor Related Jurisprudence
 1. <s>analyze MKR and DFM-GCN ratings.dat by seeing the unique values of userID, itemID, and rating</s>
+2. analyze again if the the itemID's ever occur in either the head and tail columns of the knowledge graph
+3. an idea I have is that the data we have about the cases citing case laws could be used as a knowledge graph
+4. match all "g.r. no." expressions or any expression like it such as "i.p.i. no."
+
+g.r. no. 46802-46812
+g.r. no. 42590, 42591
+adm. case no. 879
+g.r. no. 45274 and 45275
+g.r. no. 43522, 43523, 43751-43753
+per. rec. no. 714-a
+g.r. no. l-5984 and l-5985
+g.r. no. l-11319-20; l-13504; l-13507-8
+a.c. no. 9906
+a.m. no. p-14-3233 [formerly oca ipi no. 12-37...
+a.c. no. 8608 [formerly cbd case no. 11-2907]
