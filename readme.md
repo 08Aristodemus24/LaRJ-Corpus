@@ -184,52 +184,52 @@ ORGANIZATION
 2. Date: March 18, 1995, December 16, 1975, December 31, 1975, ...
 3. disseminate information to group regarding what entities to look for in each document given examples under each entity type
 
-**relevant information**
+**Side notes:**
 * Petitioner: Another word for plaintiff, the person starting the lawsuit. Plaintiff: The person who sues or starts a civil case, also called the petitioner or the complainant.
 
 
 
 ## Labor Related Jurisprudence
-- <s> finish identifying 1st batch of 1901-1920, 1921-1940, 1941-1960, 1961-1980, 1981-1995, 1996 and 1997 jurisprudence
-- identify 2nd batch of 1998, 1999, 2000, 2001, 2002, 2003, and 2004 jurisprudence
-- identify 3rd batch of 2005, 2006, 2007, 2008, 2009, 2010, and 2011 jurisprudence
-- identify 4th batch of 2012, 2013, 2014, 2015, 2016, 2017, and 2018 jurisprudence
-- identify last batch of 2019, 2020, and 2021 jurisprudence </s> CUT SHORT BECAUSE OF RATE LIMIT
+* <s> finish identifying 1st batch of 1901-1920, 1921-1940, 1941-1960, 1961-1980, 1981-1995, 1996 and 1997 jurisprudence
+* identify 2nd batch of 1998, 1999, 2000, 2001, 2002, 2003, and 2004 jurisprudence
+* identify 3rd batch of 2005, 2006, 2007, 2008, 2009, 2010, and 2011 jurisprudence
+* identify 4th batch of 2012, 2013, 2014, 2015, 2016, 2017, and 2018 jurisprudence
+* identify last batch of 2019, 2020, and 2021 jurisprudence </s> CUT SHORT BECAUSE OF RATE LIMIT
 
 inner right + inner left is the calculation
-- indeces covered in 1901-1920: 0-573 (574), 0-276/574-850 (277) 
-- indeces covered in 1921-1940: 0-579 (580), 0-275/580-855 (276)
-- indeces covered in 1941-1960: 0-565 (566), 0-272/566-838 (273) 
-- indeces covered in 1961-1980: 0-558 (559), 0-266/559-825 (267)
-- indeces covered in 1981-1995: 0-685 (686), 0-345/686-1031 (346)
-- indeces covered in 1996: 0-541 (542), 0-239/542-781 (240)
-- indeces covered in 1997: 0-546 (547), 0-280/547-827 (281)
-- indeces covered in 1998: 0-12 (13),
-- indeces covered in 1999: 0-12 (13),
-- indeces covered in 2000: 0-482 (483),
-- indeces covered in 2001: done
-- indeces covered in 2002: done
-- indeces covered in 2003: done
-- indeces covered in 2004: done
-- indeces covered in 2005: done
-- indeces covered in 2006: done
-- indeces covered in 2007: done
-- indeces covered in 2008: done 
-- indeces covered in 2009: done
-- indeces covered in 2010: done
-- indeces covered in 2011: done
-- indeces covered in 2012: done
-- indeces covered in 2013: done
-- indeces covered in 2014: done
-- indeces covered in 2015: 0-24 (25), 0-963/25-988 (964) done
-- indeces covered in 2016: 0-27 (28), 0-1060/28-1088 (1061) done
-- indeces covered in 2017: 0-24 (25), 0-975/25-1000 (976) done
-- indeces covered in 2018: done
-- indeces covered in 2019: done
-- indeces covered in 2020: done
-- indeces covered in 2021: done
+* indeces covered in 1901-1920: 0-573 (574), 0-276/574-850 (277) 
+* indeces covered in 1921-1940: 0-579 (580), 0-275/580-855 (276)
+* indeces covered in 1941-1960: 0-565 (566), 0-272/566-838 (273) 
+* indeces covered in 1961-1980: 0-558 (559), 0-266/559-825 (267)
+* indeces covered in 1981-1995: 0-685 (686), 0-345/686-1031 (346)
+* indeces covered in 1996: 0-541 (542), 0-239/542-781 (240)
+* indeces covered in 1997: 0-546 (547), 0-280/547-827 (281)
+* indeces covered in 1998: 0-12 (13),
+* indeces covered in 1999: 0-12 (13),
+* indeces covered in 2000: 0-482 (483),
+* indeces covered in 2001: done
+* indeces covered in 2002: done
+* indeces covered in 2003: done
+* indeces covered in 2004: done
+* indeces covered in 2005: done
+* indeces covered in 2006: done
+* indeces covered in 2007: done
+* indeces covered in 2008: done 
+* indeces covered in 2009: done
+* indeces covered in 2010: done
+* indeces covered in 2011: done
+* indeces covered in 2012: done
+* indeces covered in 2013: done
+* indeces covered in 2014: done
+* indeces covered in 2015: 0-24 (25), 0-963/25-988 (964) done
+* indeces covered in 2016: 0-27 (28), 0-1060/28-1088 (1061) done
+* indeces covered in 2017: 0-24 (25), 0-975/25-1000 (976) done
+* indeces covered in 2018: done
+* indeces covered in 2019: done
+* indeces covered in 2020: done
+* indeces covered in 2021: done
 
-**articles:**
+**Articles:**
 1. accessing gpt-4 API
 https://medium.com/codingthesmartway-com-blog/unlocking-the-power-of-gpt-4-api-a-beginners-guide-for-developers-a4baef2b5a81
 
@@ -240,7 +240,7 @@ https://medium.com/codingthesmartway-com-blog/unlocking-the-power-of-gpt-4-api-a
 * https://medium.com/@vikastiwari708409/how-to-use-gpt4all-llms-with-langchain-to-work-with-pdf-files-f0f0becadcb6
 * https://blog.futuresmart.ai/building-a-document-based-question-answering-system-with-langchain-pinecone-and-llms-like-gpt-4-and-chatgpt
 
-**notes:**
+**Side notes:**
 1. all `juris_<year>parser.ipynb` files from 2021 down to 2001 have all completed parsing the jurisprudence documents in their year
 2. however `juris_<year>parser.ipynb` parsers from 2021 down to 1901 all access the OPEN_AI_API_KEY via the original local machines system environment OPEN_AI_API_KEY variable, recent changes have moved the local machines system environment OPEN_AI_API_KEY value to the .env file which is ignored by .gitignore to prevent being pushed to remote repository and being exposed publicly
 
@@ -288,26 +288,6 @@ significant DOLE dept orders
 - <s> merge answers__df with juris__df.csv where the the file_path column and file_path column in both tables is equal </s>
 - <s> merge resulting df with juris.csv where the file_url column and identifier column is equal </s>
 
-- analyze MKR and DFM ratings.dat first before modelling the labor related jurisprudence dataset after it
-some insights gain on the movie ratings dataset and the knowledge graph used by the MKR model we're the following:
-a. movie ratings dataset had a total of 6040 unique users: 
-b. movie ratings dataset had a total of 3706 unique items: 
-c. movie ratings dataset had a total of 1,000,209 rows
-d. knowledge graph had a total of 2445 unique head nodes/vertices/entities
-e. knowledge graph had a total of 4563 unique tail nodes/vertices/entities
-f. knowledge graph had a total of 7 unique relations/edges
-
-conclusions:
-a. since we have now about almost 4000 unique items which is greater than this datasets number of unique items, this may be sufficient enough to generate enough recommendations to users
-b. about 6000 to 7000 users will be enough to power our recommender system
-c. we will have to synthesize the ratings either by: 1. creating these 7000 legal practitioners google accounts 
-d. since recommendation systems are barpartite graphs, having 4000 items and 7000 users will at the maximum amount to 28,000,000 million ratings since 4000 times 7000 is this number, should each user rate all 4000 items, and even then if each user does not decide to rate 4000 items, the total ratings done will be still in the range of 1 million to 10 million, as an educated estimate, roughly speaking
-
-yet some more questions I still have are:
-a. what exactly are those head entities?
-b. what exactly are those tail entities?
-c. are the head entities items that also co-occur in the user-item rating matrix
-d. are the tail entities items that also co-occur in the user-item rating matrix
 
 
 - synthesize the interaction of users between items where instead of explicit interaction such us rating of user for item we use the nubmer of clicks
@@ -352,37 +332,37 @@ b. \ir ./delete_db.sql
 
 
 # Exploratory Data Analysis:
-## Labor Corpus Juris
-1. <s>analyze MKR and DFM-GCN kg.txt by seeing the unique values of the head, relation, and tail columns</s>
-
 ## Labor Related Jurisprudence
-prerequisites to do:
+**Prerequisites to do:**
 1. see how the knowledge graph of Hongwei, Wang is structured, see if items are contained in knowledge graph, if users are also contained in knowledge graph and why
-a. run MKR and KGCN repositories code to get `kg_final.txt` and `ratings_final.txt` files
-result: when the code was run to preprocess these aforementioned file output messages were the following
-reading item index to entity id file: ../data/movie/item_index2entity_id.txt ...
-reading rating file ...
-converting rating file ...
-number of users: 6036
-number of items: 2347
-converting kg.txt file ...
-number of entities (containing items): 6729
-number of relations: 7
-done
+a. run MKR and KGCN repositories code to get `kg_final.txt` and `ratings_final.txt` files. When the code was run to preprocess these aforementioned file output messages were the following:
+<pre>
+    <code>
+        
+        reading item index to entity id file: ../data/movie/item_index2entity_id.txt ...
+        reading rating file ...
+        converting rating file ...
+        number of users: 6036
+        number of items: 2347
+        converting kg.txt file ...
+        number of entities (containing items): 6729
+        number of relations: 7
+        done
+    </code>
+</pre>
 
-b. understand the `kg.txt` and `ratings.dat` files
+b. understand the `kg.txt` and `ratings.dat` files in order to model labor related jurisprudence user-item dataset and the knowledge graph that will be integrated to it
 c. do data exploration and experimentation on these files by finding out each unique values of each column of the `kg.txt` and `ratings.dat` files
+d. if kg.txt file in MKR contains 6729 entities containing items that are also in the item column in the user-item rating dataset, question now is are these 6729 items unique, and in my exploratory data analysis of the `kg.txt` and `ratings.dat` file why does some user id's still occur in the knowledge graph?
+
 2. see functions on how knowledge graph and user-item rating data is preprocessed in code Hongwei, Wang's code in their in KGCN or MKR paper
 a. understand how `read_item_index_to_entity_id_file()` works
 b. understand how `convert_rating()` works
 c. understand how `convert_kg()` works
+
 3. because Hongwei, Wang's KGCN and MKR used a non-eager tensorflow implementation of both these models we must refer to the Recommender-System repository which contains eager tensorflow implementation of both these models
 
-**Side Notes:**
-* The MKR paper uses I hypothesize a simple translational model to encode the knowledge graph
-* The KGCN paper uses a graph convolutional network to encode the knowledge graph
-
-to do:
+**To do:**
 1. <s>analyze MKR and DFM-GCN ratings.dat by seeing the unique values of userID, itemID, and rating</s>
 2. <s>analyze again if the the itemID's ever occur in either the head and tail columns of the knowledge graph</s>
 3. an idea I have is that the data we have about the cases citing case laws could be used as a knowledge graph (requires )
@@ -399,3 +379,33 @@ to do:
 * a.c. no. 9906
 * a.m. no. p-14-3233 [formerly oca ipi no. 12-37...
 * a.c. no. 8608 [formerly cbd case no. 11-2907]
+
+**Questions:**
+a. what exactly are those head entities?
+b. what exactly are those tail entities?
+c. are the head entities items that also co-occur in the user-item rating matrix
+d. are the tail entities items that also co-occur in the user-item rating matrix
+
+**Insights:**
+some insights gain on the movie ratings dataset and the knowledge graph used by the MKR model we're the following:
+1. In dataset used by MKR, movie ratings dataset had a total of 6040 unique users: 
+2. In dataset used by MKR, movie ratings dataset had a total of 3706 unique items: 
+3. In dataset used by MKR, movie ratings dataset had a total of 1,000,209 rows
+4. In knowledge graph used by MKR, kg had a total of 2445 unique head nodes/vertices/entities
+5. In knowledge graph used by MKR, kg had a total of 4563 unique tail nodes/vertices/entities
+6. In knowledge graph used by MKR, kg had a total of 7 unique relations/edges
+
+**Conclusions:**
+1. since we have now about almost 4000 unique items which is greater than this datasets number of unique items, this may be sufficient enough to generate enough recommendations to users
+2. about 6000 to 7000 users will be enough to power our recommender system
+3. we will have to synthesize the ratings either by: 1. creating these 7000 legal practitioners google accounts 
+4. since recommendation systems are barpartite graphs, having 4000 items and 7000 users will at the maximum amount to 28,000,000 million ratings since 4000 times 7000 is this number, should each user rate all 4000 items, and even then if each user does not decide to rate 4000 items, the total ratings done will be still in the range of 1 million to 10 million, as an educated estimate, roughly speaking
+
+**Side Notes:**
+* The MKR paper uses I hypothesize a simple translational model to encode the knowledge graph
+* The KGCN paper uses a graph convolutional network to encode the knowledge graph
+
+
+
+# Things I Learned:
+1. 
