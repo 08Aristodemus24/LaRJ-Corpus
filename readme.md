@@ -356,19 +356,46 @@ b. \ir ./delete_db.sql
 1. <s>analyze MKR and DFM-GCN kg.txt by seeing the unique values of the head, relation, and tail columns</s>
 
 ## Labor Related Jurisprudence
-1. <s>analyze MKR and DFM-GCN ratings.dat by seeing the unique values of userID, itemID, and rating</s>
-2. analyze again if the the itemID's ever occur in either the head and tail columns of the knowledge graph
-3. an idea I have is that the data we have about the cases citing case laws could be used as a knowledge graph
-4. match all "g.r. no." expressions or any expression like it such as "i.p.i. no."
+prerequisites to do:
+1. see how the knowledge graph of Hongwei, Wang is structured, see if items are contained in knowledge graph, if users are also contained in knowledge graph and why
+a. run MKR and KGCN repositories code to get `kg_final.txt` and `ratings_final.txt` files
+result: when the code was run to preprocess these aforementioned file output messages were the following
+reading item index to entity id file: ../data/movie/item_index2entity_id.txt ...
+reading rating file ...
+converting rating file ...
+number of users: 6036
+number of items: 2347
+converting kg.txt file ...
+number of entities (containing items): 6729
+number of relations: 7
+done
 
-g.r. no. 46802-46812
-g.r. no. 42590, 42591
-adm. case no. 879
-g.r. no. 45274 and 45275
-g.r. no. 43522, 43523, 43751-43753
-per. rec. no. 714-a
-g.r. no. l-5984 and l-5985
-g.r. no. l-11319-20; l-13504; l-13507-8
-a.c. no. 9906
-a.m. no. p-14-3233 [formerly oca ipi no. 12-37...
-a.c. no. 8608 [formerly cbd case no. 11-2907]
+b. understand the `kg.txt` and `ratings.dat` files
+c. do data exploration and experimentation on these files by finding out each unique values of each column of the `kg.txt` and `ratings.dat` files
+2. see functions on how knowledge graph and user-item rating data is preprocessed in code Hongwei, Wang's code in their in KGCN or MKR paper
+a. understand how `read_item_index_to_entity_id_file()` works
+b. understand how `convert_rating()` works
+c. understand how `convert_kg()` works
+3. because Hongwei, Wang's KGCN and MKR used a non-eager tensorflow implementation of both these models we must refer to the Recommender-System repository which contains eager tensorflow implementation of both these models
+
+**Side Notes:**
+* The MKR paper uses I hypothesize a simple translational model to encode the knowledge graph
+* The KGCN paper uses a graph convolutional network to encode the knowledge graph
+
+to do:
+1. <s>analyze MKR and DFM-GCN ratings.dat by seeing the unique values of userID, itemID, and rating</s>
+2. <s>analyze again if the the itemID's ever occur in either the head and tail columns of the knowledge graph</s>
+3. an idea I have is that the data we have about the cases citing case laws could be used as a knowledge graph (requires )
+4. match all "g.r. no." expressions or any expression like it such as 
+* i.p.i. no.
+* g.r. no. 46802-46812
+* g.r. no. 42590, 42591
+* adm. case no. 879
+* g.r. no. 45274 and 45275
+* g.r. no. 43522, 43523, 43751-43753
+* per. rec. no. 714-a
+* g.r. no. l-5984 and l-5985
+* g.r. no. l-11319-20; l-13504; l-13507-8
+* a.c. no. 9906
+* a.m. no. p-14-3233 [formerly oca ipi no. 12-37...
+* a.c. no. 8608 [formerly cbd case no. 11-2907]
