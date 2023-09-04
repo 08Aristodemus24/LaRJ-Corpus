@@ -336,20 +336,17 @@ b. \ir ./delete_db.sql
 **Prerequisites to do:**
 1. see how the knowledge graph of Hongwei, Wang is structured, see if items are contained in knowledge graph, if users are also contained in knowledge graph and why
 a. run MKR and KGCN repositories code to get `kg_final.txt` and `ratings_final.txt` files. When the code was run to preprocess these aforementioned file output messages were the following:
-<pre>
-    <code>
-        
-        reading item index to entity id file: ../data/movie/item_index2entity_id.txt ...
-        reading rating file ...
-        converting rating file ...
-        number of users: 6036
-        number of items: 2347
-        converting kg.txt file ...
-        number of entities (containing items): 6729
-        number of relations: 7
-        done
-    </code>
-</pre>
+```
+reading item index to entity id file: ../data/movie/item_index2entity_id.txt ...
+reading rating file ...
+converting rating file ...
+number of users: 6036
+number of items: 2347
+converting kg.txt file ...
+number of entities (containing items): 6729
+number of relations: 7
+done
+```
 
 b. understand the `kg.txt` and `ratings.dat` files in order to model labor related jurisprudence user-item dataset and the knowledge graph that will be integrated to it
 c. do data exploration and experimentation on these files by finding out each unique values of each column of the `kg.txt` and `ratings.dat` files
@@ -400,6 +397,17 @@ some insights gain on the movie ratings dataset and the knowledge graph used by 
 2. about 6000 to 7000 users will be enough to power our recommender system
 3. we will have to synthesize the ratings either by: 1. creating these 7000 legal practitioners google accounts 
 4. since recommendation systems are barpartite graphs, having 4000 items and 7000 users will at the maximum amount to 28,000,000 million ratings since 4000 times 7000 is this number, should each user rate all 4000 items, and even then if each user does not decide to rate 4000 items, the total ratings done will be still in the range of 1 million to 10 million, as an educated estimate, roughly speaking
+
+**Articles:**
+* wang, h. details that https://github.com/hwwang55/KGCN/issues/5
+a. **User**: Hi, in your paper, you mention that you sample a fixed size set of neighbors for each entity. How do you choose neighbors for each entity? Random or in other ways? **Wang**: The entities are randomly sampled.
+b. **Wang**: you need to find a KG that matches the items in your dataset, and then do the linking between entities and items. **User**: What if I want to create a kg myself? Does your code expect to have each item exist in the kg.txt? **Wang**: Do you have the information to construct a KG for items? KG contains factual knowledge so it cannot be "created" but only "extracted" from available source of information. For example, you have the attributes of items, and these attributes can be connected to each other. Or, you have some natural texts describing these items, so you can use information extraction (IE) tools to extract a KG for these items. **User**: Yes, I do have info like article, specialty, lead-concept etc. **Wang**: You need to extract information from articles, and see if the specialty and lead concept information you mentioned can form a graph
+c. **User**: The first column is the id of the item, and the second column is the id of the movie in the knowledge graph. **User**: Is it just the movie id? Don’t you have the ID of the director or actor?
+d. **User**: Hello Professor Wang, I would like to ask why the second column of kg_rehashed.txt has three combinations. For example, what does 2474 film.writer.film 2475 mean? **Wang**: Hello, the first film indicates that the domain of this triple is film, the second writer and the third film indicate that the head and tail are writer and film respectively. Thanks!
+e. **User**: Hello Professor Wang, may I ask why some relationships in kg_rehashed.txt are bidirectional, such as <img alt="relations"/>. **User**: In the picture, there is no bidirectional relationship between coutry and language? Will it have a big impact if my data is all one-way relationships? **Wang**: Hi, these relationships are not bidirectional, can you describe your problem in detail? **User**: Hello Professor Wang, my use of the word "bidirectional" may not be appropriate. In fact, what I want to say is two "directionally symmetrical" relationships in opposite directions rather than a "bidirectional" relationship. As you mentioned: <img/>. **User**: I found that there are 4 pairs of relationships (relationships 1-8 in the picture above) with "symmetrical" head and tail nodes (such as film.writer.film and film.film.writer). Relationships 9-11 have no corresponding "symmetrical" ones. "opposite direction" relationship.
+Question 1. Why set up the relationship like this? Why is there no corresponding "symmetrical" "reverse" relationship in relation 9-11?
+Question 2. I used my own data to reproduce the experiment. There are 6 types of relationships in total. The relationships are all like 9-11 without "symmetry" and "opposite direction". The tail node is encoded with 0-len(size). Now I The reproduction result is not ideal. I guess it is because the relational data is not processed well. I don’t know if this is the case?
+f. **User**: Ask if the entity_id in raw_train.txt and the entity_id and relation_id in kg.txt are in the knowledge graph of Microsoft Satori knowledge graph? How to download this knowledge map? **Wang**: Hello! Yes, but this knowledge map is used internally by Microsoft, so the ID has also been anonymized and cannot be used directly by the outside world.
 
 **Side Notes:**
 * The MKR paper uses I hypothesize a simple translational model to encode the knowledge graph
