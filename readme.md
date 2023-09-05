@@ -277,35 +277,28 @@ significant DOLE dept orders
 - once identified all entities using NER or by manually doing so create the knowledge graph automatically if not manually
 
 ## Labor Related Jurisprudence
-- <s> act as if all answers are collected, by combining all .csv files into a single dataframe for cleaning </s>
-- <s> answer__df.csv will be comprised of columsn file_path and answer </s>
-- <s> apply capitalization, removal of punctuation, to whole answer column </s>
-- <s> check if substring NOT occurs in answer column </s>
-- <s> match either the phrases NOT LABOR RELATED or LABOR RELATED and return to the whole answer column </s>
-- <s> the answer column will be comprise of inconsistent casing of values "labor related" and "not labor related", e.g. "Labor related.", "labor related", "not labor related.", "Not labor related", "the case is not labor related", "the case is labor related", etc.</s>
-- <s> the answer column will also comprise of error messages TIMEOUT_ERROR, RATE_LIMIT_ERROR, TIME_LIMIT_REACHED, INVALID_REQUEST_ERROR, API_CONNECTION_ERROR as values from the api calls that resulted in errors keep these values </s>
-- <s> merge the similar incosist4encies into just NOT LABOR RELATED, and LABOR RELATED </s>
-- <s> merge answers__df with juris__df.csv where the the file_path column and file_path column in both tables is equal </s>
-- <s> merge resulting df with juris.csv where the file_url column and identifier column is equal </s>
-
-
-
-- synthesize the interaction of users between items where instead of explicit interaction such us rating of user for item we use the nubmer of clicks
-type of interactions:
+- <s>act as if all answers are collected, by combining all .csv files into a single dataframe for cleaning </s>
+- <s>answer__df.csv will be comprised of columsn file_path and answer </s>
+- <s>apply capitalization, removal of punctuation, to whole answer column </s>
+- <s>check if substring NOT occurs in answer column </s>
+- <s>match either the phrases NOT LABOR RELATED or LABOR RELATED and return to the whole answer column </s>
+- <s>the answer column will be comprise of inconsistent casing of values "labor related" and "not labor related", e.g. "Labor related.", "labor related", "not labor related.", "Not labor related", "the case is not labor related", "the case is labor related", etc.</s>
+- <s>the answer column will also comprise of error messages TIMEOUT_ERROR, RATE_LIMIT_ERROR, TIME_LIMIT_REACHED, INVALID_REQUEST_ERROR, API_CONNECTION_ERROR as values from the api calls that resulted in errors keep these values </s>
+- <s>merge the similar incosistencies into just NOT LABOR RELATED, and LABOR RELATED </s>
+- <s>merge answers__df with juris__df.csv where the the file_path column and file_path column in both tables is equal </s>
+- <s>merge resulting df with juris.csv where the file_url column and identifier column is equal </s>
+- <s>synthesize the interaction of users between items where instead of explicit interaction such us rating of user for item we use the nubmer of clicks</s>
+Types of implicit interactions:
 clicked 1
 stayed for more than 1 minute 2
 commented 3
 liked 4
 shared 5
-however we may not be able to finish a web architecture that allows users to share posts etc.
-- another option for the possible dataset to synthesize is to use instead explicit ratings and each rating will have a scoring system of 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, and 5
-1st type of description of ratings
-0.5 - unrelated to your case
-1.0 - unrelated yet helpful to your case
-1.5 - unrelated yet helpful to your case
-2.0 - 
+however we may not be able to finish a web architecture that allows users to share posts etc. *this way is not possible due to time constraints*
 
-2nd type of description of ratings
+- another option for the possible dataset to synthesize is to use instead explicit ratings and each rating will have a scoring system of 1, 2, 3, 4, and 5. 0 is reserved for unrated items
+1st type of description of ratings:
+0 - default, represents unrated document
 1 - unrelated to your case
 2 - unrelated yet helpful to your case
 3 - somewhat helpful to your case
