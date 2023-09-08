@@ -6,14 +6,14 @@
 /raw labor corpus juris text files/
 
 # ignore all identified jurisprudence documents
-/raw jurisprudence/*answers*
+/raw labor related jurisprudence extraction/*answers*
 
 # ignore the 60000+ jurisprudence documents
-/raw jurisprudence/juris/
+/raw labor related jurisprudence extraction/juris/
 
 # ignore .xlsx file containing meta-data of each jurisprudence document
-/raw jurisprudence/data__raw.xlsx
-/raw jurisprudence/data__transformed.xlsx
+/raw labor related jurisprudence extraction/data__raw.xlsx
+/raw labor related jurisprudence extraction/data__transformed.xlsx
 
 # ignore .env containing OPEN_AI_API_KEY
 /.env
