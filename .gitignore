@@ -15,5 +15,7 @@
 /raw labor related jurisprudence extraction/data__raw.xlsx
 /raw labor related jurisprudence extraction/data__transformed.xlsx
 
+/labor related jurisprudence/*.csv
+
 # ignore .env containing OPEN_AI_API_KEY
 /.env
