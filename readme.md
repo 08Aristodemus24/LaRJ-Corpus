@@ -1,4 +1,4 @@
-# **STILL IN PRODUCTION**
+# **DEVELOPMENT FINISHED**
 
 *for manual work
 
